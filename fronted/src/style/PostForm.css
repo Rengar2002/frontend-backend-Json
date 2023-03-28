@@ -1,0 +1,28 @@
+.PostFormButton{
+    width: 120px;
+    height: 25px;
+    border-radius: 35px;
+    background:linear-gradient(95deg, rgb(35, 195, 185),rgb(237, 115, 115));
+    transition: all 0.15s;   
+}
+
+.PostFormButton:hover{
+    background:linear-gradient(95deg, rgb(237, 115, 115),rgb(35, 195, 185));
+    width: 135px;
+    height: 35px;
+}
+
+.PostFormInput{
+    width: 150px;
+    height: 25px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.PostForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: -50px;
+}

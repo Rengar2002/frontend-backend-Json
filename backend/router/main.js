@@ -21,14 +21,14 @@ router.get('/postevent',(req,res)=>{
 
     let data = fs.readFileSync('./db/database.json');
     let datapars = JSON.parse(data);
-    let newData = [{
+    let newData = {
         id:id,
         day:day,
         year:year,
        month:month,
         events:events,
         description:description
-    }]
+    }
     datapars.push(newData);
     fs.writeFileSync('./db/database.json',JSON.stringify(datapars));
 
